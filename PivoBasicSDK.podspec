@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PivoBasicSDK"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "Pivo Basic SDK"
 
   # This description is used to generate tags and improve search results.
@@ -65,12 +65,12 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios
   spec.platform     = :ios, "9.0"
   
-  spec.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  }
-  spec.user_target_xcconfig = { 
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' 
-  }
+  # spec.pod_target_xcconfig = {
+  #   'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  # }
+  # spec.user_target_xcconfig = { 
+  #   'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' 
+  # }
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -85,7 +85,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/pivo-inc/pivo-basic-sdk-ios.git", :tag => "0.0.5" }
+  spec.source       = { :git => "https://github.com/pivo-inc/pivo-basic-sdk-ios.git", :tag => "0.0.6" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
