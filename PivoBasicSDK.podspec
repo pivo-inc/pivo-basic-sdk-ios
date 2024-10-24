@@ -51,7 +51,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "3i Inc." => "app@3i.ai", "Arlin Kim" => "arlin.kim@3i.ai" }
+  spec.author             = { "3i Inc." => "app@3i.ai" }
   # Or just: spec.author    = "3i Inc."
   # spec.authors            = { "3i Inc." => "app@3i.ai" }
   # spec.social_media_url   = "https://twitter.com/Do Thanh Tuan"
@@ -63,7 +63,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "12.0"
   
   spec.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
