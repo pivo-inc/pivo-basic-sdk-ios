@@ -45,3 +45,6 @@ In version 1.0.4:
 
 In version 1.0.5:
 - Modify some remote control `pressed` and `released` event
+
+In version 1.0.6:
+- Easing function enabled
